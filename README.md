@@ -13,6 +13,8 @@ This project implements an image captioning model using ResNet50 as the CNN enco
 - **Transfer Learning**: Adapt models for different datasets or vocabularies
 - **🎯 Unified Utils**: All utilities consolidated in `utils.py` for easy access
 - **Beam Search**: Advanced caption generation with beam search
+- **📦 Batch Inference**: Process single images, multiple images, or entire directories
+- **🎨 Attention Visualization**: See what the model focuses on for each word
 - **Training Utilities**: Gradient clipping, learning rate adjustment, accuracy metrics
 
 ## Project Structure
@@ -26,10 +28,11 @@ This project implements an image captioning model using ResNet50 as the CNN enco
 ├── train.py              # Training from scratch
 ├── finetune.py           # Fine-tune pretrained models
 ├── export_pretrained.py  # Export trained models
-├── inference.py          # Caption generation
+├── inference.py          # Caption generation (single & batch)
 ├── requirements.txt      # Dependencies
 ├── README.md            # This file
-└── UTILS_REFERENCE.md   # Complete utils.py documentation
+├── UTILS_REFERENCE.md   # Complete utils.py documentation
+└── INFERENCE_GUIDE.md   # Complete inference documentation
 ```
 
 ## Installation
