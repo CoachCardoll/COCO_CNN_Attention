@@ -210,6 +210,7 @@ Key parameters in `config.py`:
 - `HIDDEN_SIZE`: 512
 - `ATTENTION_DIM`: 512
 - `ENCODER_DIM`: 2048
+- `GRID_SIZE`: 14x14
 
 ## Transfer Learning Strategies
 
